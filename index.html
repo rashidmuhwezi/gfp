@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#081329">
+  <meta name="description" content="A little universe made especially for Ethereal.">
+  <title>For Ethereal ✦ A Little Universe</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="starfield" aria-hidden="true" id="starfield"></div>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="wordmark" href="#home" aria-label="A Little Universe home">✦ A LITTLE UNIVERSE</a>
+    <p class="wordmark">A Princess Universe.</p>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="orbit orbit-a" aria-hidden="true"></div>
+      <div class="orbit orbit-b" aria-hidden="true"></div>
+      <div class="hero-star" aria-hidden="true">✦</div>
+      <p class="eyebrow">A small corner of the universe, made for you</p>
+      <h1>For my <span class="gold-script">Ethereal</span></h1>
+      <p class="hero-copy">Of all the people, places, and possibilities in this universe, I’m grateful our paths crossed.</p>
+      <button class="primary-button" id="beginButton" type="button">Step into our little universe <span aria-hidden="true">↗</span></button>
+      <p class="scroll-hint">A little story, one star at a time <span aria-hidden="true">↓</span></p>
+    </section>
+
+    <section class="intro section-shell reveal" id="begin">
+      <p class="eyebrow">Before the memories</p>
+      <h2>Some people arrive quietly,<br><span class="gold-text">Then everything feels different.</span></h2>
+      <p class="body-copy">Ethereal, this is a little place I made to celebrate you—not just your birthday, but the difference you’ve made in my life. Take your time. Every little corner holds a piece of what I want you to know.</p>
+    </section>
+
+    <section class="memories section-shell reveal" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter I · The things I keep</p>
+        <h2>Little moments.<br><span class="gold-text">Big meaning.</span></h2>
+        
+      </div>
+      <div class="memory-grid">
+        <button class="memory-card" type="button" aria-pressed="false">
+          <span class="card-inner">
+            <span class="card-face card-front"><span class="card-number">01</span><span class="card-symbol">✧</span><strong>The beginning</strong><small>Tap to uncover</small></span>
+            <span class="card-face card-back"><span class="card-number">01 · A memory</span><strong>Meeting at our friend's room.</strong><span>I remember looking at you thinking that, wow this girl is really beautiful and amazing, but then you go on to play hard to get. So funny.</span></span>
+          </span>
+        </button>
+        <button class="memory-card" type="button" aria-pressed="false">
+          <span class="card-inner">
+            <span class="card-face card-front"><span class="card-number">02</span><span class="card-symbol">☾</span><strong>The little things</strong><small>Tap to uncover</small></span>
+            <span class="card-face card-back"><span class="card-number">02 · What I notice</span><strong>The way you love being babied.</strong><span>I love that you can be tough to the whole world but then become a baby when it's just me and you, I love taking care of you. My big baby. </span></span>
+          </span>
+        </button>
+        <button class="memory-card" type="button" aria-pressed="false">
+          <span class="card-inner">
+            <span class="card-face card-front"><span class="card-number">03</span><span class="card-symbol">♡</span><strong>What you changed</strong><small>Tap to uncover</small></span>
+            <span class="card-face card-back"><span class="card-number">03 · From the heart</span><strong>You helped me when I needed it.</strong><span>You saved me before I even understood that I needed saving. I’ll never take that part of our story lightly. You really are a blessing from God. Alhamdullilah.</span></span>
+          </span>
+        </button>
+      </div>
+    </section>
+
+    <section class="gallery-section section-shell reveal" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Chapter II · Snapshots of us</p>
+        <h2>Moments I’d <span class="gold-text">keep forever.</span></h2>
+      </div>
+      <div class="photo-grid" id="photoGrid" aria-label="Photo gallery">
+        <!-- Gallery items are created in script.js. -->
+      </div>
+    </section>
+
+    <section class="letter-section section-shell reveal" id="letter">
+      <div class="letter-orbit" aria-hidden="true">✧</div>
+      <p class="eyebrow">Chapter III · A letter for your birthday</p>
+      <h2>There are things I want<br>you to <span class="gold-text">always know.</span></h2>
+      <p class="body-copy">Some feelings deserve more than a quick message.</p>
+      <button class="primary-button" id="openLetter" type="button" aria-expanded="false" aria-controls="letterPanel">Open your letter <span aria-hidden="true">♡</span></button>
+      <article class="letter-panel" id="letterPanel" hidden>
+        <p class="letter-salutation">My Ethereal,</p>
+        <p>Happy birthday, my beautiful baby girl.</p>
+        <p>I don't really know what to write but i will do my best, am super duper glad that i met you my beautiful baby girl. I honestly don't know how i pulled you in the first place and how you accepted to be with me but am so glad you did and for that, i Thank Allah for it honestly.</p>
+        <p>You reminded me, in your own way, that even when life feels heavy, there can still be kindness, warmth, and reasons to keep moving forward. I hope you know how much that means to me. You are not special to me because of one thing you have done; you are special because of everything about you.</p>
+        <p>For your new year of life, I hope you receive the same gentleness you give to others. I hope you find reasons to laugh loudly, dreams that excite you, peace that stays, and people who see the beautiful things in you—even on the days you struggle to see them yourself (but don't worry, if they don't see you, i always will).</p>
+        <p>My wish is that we keep making memories, keep learning each other, and keep finding little reasons to choose kindness. I can’t promise that every day will be perfect, but I can promise that I will never stop appreciating the part of my story that includes you and i don't know about you but it's actually the best part fr.</p>
+        <p>Thank you for being you, Ethereal. You matter more than these words can ever hold.</p>
+        <p class="letter-signoff">Happy birthday, my Ethereal. <span>With lots of love,</span><strong>Monchie</strong></p>
+        <p class="edit-note"></p>
+      </article>
+    </section>
+
+    <section class="future-section section-shell reveal" id="future">
+      <p class="eyebrow">Chapter IV · Not the end</p>
+      <div class="future-star" aria-hidden="true">✦</div>
+      <h2>There’s still so much<br><span class="gold-text">sky ahead of us.</span></h2>
+      <p class="body-copy">The best part of a story is that it’s still being written. Here are a few little dreams I hope we get to live.</p>
+      <div class="dream-list" id="dreamList">
+        <label class="dream-item"><input type="checkbox"><span class="dream-check" aria-hidden="true">✧</span><span>I cannot wait to travel with you to see the world.</span></label>
+        <label class="dream-item"><input type="checkbox"><span class="dream-check" aria-hidden="true">✧</span><span>I can't wait to ride horses and quad bikes with you.</span></label>
+        <label class="dream-item"><input type="checkbox"><span class="dream-check" aria-hidden="true">✧</span><span>I can't wait to wake up next to you in our own home to nice breakfast from you.</span></label>
+      </div>
+      <button class="primary-button" id="finalReveal" type="button" aria-expanded="false" aria-controls="finalMessage">One last little thing <span aria-hidden="true">✦</span></button>
+      <div class="final-message" id="finalMessage" hidden>
+        <p class="eyebrow">For you, always</p>
+        <h3>In a universe full of stars,<br><span class="gold-script">I’m glad I found you.</span></h3>
+        <p>Happy birthday, Ethereal. May this year be kind to your heart, generous to your dreams, and full of moments that remind you how loved you are.</p>
+        <span class="final-heart" aria-hidden="true">♡</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span aria-hidden="true">✦</span>
+    <p>Made with so so much love, just for my Ethereal.</p>
+    <small>One little universe. One very special person.</small>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
